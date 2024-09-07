@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            my web page
+        </title>
+        <meta charset="UTF-8">
+        <meta name="author." content="tarun">
+        <meta name="description" content ="this is taruns first web page">
+        <link rel="icon" href="WIN_20240321_15_36_04_Pro.jpg">
+        <link rel="stylesheet" href ="main.css">    </head>
+    <body>
+<form action="https://httpbin.org/get" method ="get">
+   
+   <fieldset>
+    <legend>my details:</legend>
+    <br><label for="firstname" >firstname:</label> <input type="text" name="firstname" id="firstname" placeholder="enter name" autocomplete="on" required  autofocus>
+   <br>  <label for="lastname" >lastname:</label><input type="text" name="lastname" size="50" id="lastname" placeholder="enter lastname"
+    autocomplete="on" required>
+    <br>
+    <label for="password" >password:</label>
+    <input type="password" name="password" id="password" placeholder="enyter passwrod">
+   <label for="phone">no:</label>
+   <input type="number" name="number" id="phone" placeholder="+91" min="0" max="10" step="2" required>
+<!--    requirerd  keyword is used so that when we submit the form then it will show
+   wheater it is filled ,if not filled then it will show please fill this field -->
+ 
+   <label for="country">country:</label>
+   <select name="country" id="country" multiple size="4">
+    <optgroup label="asian countries">
+    <option value="india" selected>india</option>
+</optgroup>
+<optgroup label="american countries">
+    <option value="uk">uk</option>
+    <option value="usa">usa</option>
+    <option value="china">china</option>
+    <option value="russia">russia</option>
+  <!-- press shift+alt+a to get commented  oo auto apparao annade ooo antu opuuu hey pilagadhaa enthiroo poilagadhaa naa gundekadhaa liloo -->
+</optgroup>
+   </select>
+   <br>
+   <label for="country">country:</label>
+   <select name="country" id="country" multiple size="4">
+    <optgroup label="asian countries">
+    <option value="india" selected>india</option>
+</optgroup>
+<optgroup label="american countries">
+    <option value="uk">uk</option>
+    <option value="usa">usa</option>
+    <option value="china">china</option>
+    <option value="russia">russia</option>
+  <!-- press shift+alt+a to get commented  oo auto apparao annade ooo antu opuuu hey pilagadhaa enthiroo poilagadhaa naa gundekadhaa liloo -->
+</optgroup>
+   </select>
+</fieldset> 
+<fieldset>
+    <legend>choose your name:</legend>
+    <label for="king">tarunkumar</label>
+<input type="radio" name="namvv\e" value="tarunkumar" id="king">
+<label for="kin">arunkumar</label>
+<input type="radio" name="name" value="arun kumar" id="kin" >
+<label for="ki">varunkumar</label>
+<input type="radio" name="name" value="varun kumar" id="ki" >
+</fieldset>
+<!-- rmember checkbox and textarea -->
+<button type="submit">submit</button>
+<button type="reset">reset</button>
+
+</form>
+</body>
+</html> 

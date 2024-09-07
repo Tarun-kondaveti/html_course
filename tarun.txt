@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<title>tarun html practise</title>
+</head>
+<body>
+<!--for space bar the follwing syntax-->
+<p>heloo guys how are you i am k tarun kumar i am presently html  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp course  </p>
+<!--if yu want any trade mark than you have to type the follwing--> &#8482  </p>
+<p>for copy button &copy</p>
+<img src="images.jpg" height="200" width ="200">
+<br><a href="https://www.youtube.com/watch?v=Vk09dlvhFnk&pp=ygULdmlyYXQga29obGk%3D"> click here to youtube</a><br>
+<label for="kohli">enter the person you see in the image</label>
+<input type="text" id="kohli"><br><label for="des">enter his description</label><br>
+<input type="text"id="des"size="100">
+<br>
+<!--in order to add multiple line text box we must use the follwing syntax-->
+<label for ="hi">enter his cricket details</label><br>
+<textarea rows="5" cols="20" id="hi" ></textarea><br>
+<!--now systax for radio buttons-->
+the above cricetor is virat kohli
+yes
+<input type="radio" name="same">
+no
+<input type="radio" name="same"><!--remember that the name yu have given inside the name atribute you must give same then only one option can be choosen-->
+<br>
+<!--now the folling is the syntax for checkbox-->
+virat kohli is also a :-<br>
+<input type="checkbox" checked="">cricater<br>
+<input type="checkbox">human being<br>
+<input type="checkbox">father<br>
+<input type="checkbox">husband<br>
+<!--now syntax for giving a box ony to enter numbers or phone numbers-->
+enter the number of centuries virat kohli scored in the year 2023<br>
+<input type="number" min="1" max="10">
+<!-- syntax for drop down list --><br>
+<!-- inorder to fieldbox the follwing is the tag
+<fieldset>--><br><br>
+<fieldset>
+select the correct person in the aove image<br>
+<select>
+<option value="">virat kohli</option>
+<option value="">ms dhoni</option>
+<option value="">rohit sharma</option>
+</select>
+<!--now syntax for creating a date box -->
+<br>enter the date of birth of virat kohli
+<input type ="date" name="date of birth">
+</fieldset>
+ </body>
+</html>
